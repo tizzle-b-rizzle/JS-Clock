@@ -1,0 +1,46 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*#endregion*/
+  
+  body {
+      background-color: red;
+  }
+
+  #clock {
+      margin-left: 10%;
+      margin-top:30vh;
+      height:40vh;
+      width:80%;
+      background-color: aqua;
+      display:flex;
+  }
+
+  #hours {
+    flex:1;
+    height:100%;
+    width:100%;
+    background-color: yellow;
+  }
+
+  #minutes {
+    flex:1;
+    height:100%;
+    width:100%;
+    background-color: green;
+  }
+
+  #seconds {
+    flex:1;
+    height:100%;
+    width:100%;
+    background-color: brown;
+  }
+
+  #hours img, #minutes img, #seconds img {
+      height:100%;
+      width:100%;
+  }
